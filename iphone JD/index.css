@@ -1,0 +1,452 @@
+/*定位搜索框*/
+.search-box{
+	height:2.4375rem;
+	width:23.4375rem;
+	background:rgba(224,46,49,0.8);
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:9999;
+}
+.search{
+	height:1.8125rem;
+	width:19.9375rem;
+	background:#fff;
+	margin-top:0.3125rem;
+	margin-left:0.625rem;
+	border-radius: 0.9375rem;
+	position: relative;
+}
+.search-login{
+	background: url("./imgs/1.png") no-repeat;
+    width: 1.125rem;
+    height: 0.8125rem;
+    display: inline-block;
+    background-size: 1.125rem 0.8125rem;
+    position: relative;
+    left: 0.5rem;
+    top: 0.1875rem;
+    margin-right: 0.4375rem;
+}
+.search-iocn{
+	background: url("./imgs/2.png") no-repeat right center;
+    background-size: 0.75rem 0.75rem;
+    width: 0.75rem;
+    height: 0.75rem;
+    display: inline-block;
+    position: relative;
+    top: 0.1875rem;
+}
+.search input{
+	border: 0;
+    display: inline-block;
+    background: 0;
+    font-size: 0.75rem;
+    line-height: 1.0rem;
+    height:1.8125rem;
+}
+.denglu{
+    font-size: 0.8125rem;
+    font-weight: 600;
+	float:right;
+	color:#fff;
+	position: absolute;
+    right: 0.625rem;
+    top:0.8125rem;
+}
+/*轮播图*/
+.swiper-container{
+	width:23.4375rem;
+	position:relative;
+	overflow: hidden;
+}
+.swiper-wrapper{
+	display:flex;
+}
+
+.swiper-container img{
+	width: 23.4375rem;
+}
+/*菜单*/
+.appcenter{
+	width:23.4375rem;
+	height:9.3125rem;
+	background:url(./imgs/3.png) center;
+	background-size:23.4375rem 9.3125rem;
+}
+.appcenter ul{
+	padding:0.625rem 0;
+}
+.appcenter ul li{
+	float: left;
+	color: #666;
+    text-align: center;
+    display: block;
+    font-size:0.8125rem;
+    width:4.6875rem;
+    height:4.03125rem;
+}
+.quick-box{
+	height:3.1875rem;
+	margin: auto;
+}
+.quick-box img{
+	height: 2.125rem;
+    width: 2.125rem;
+    margin: 0 auto 0.25rem auto;
+    display: block;
+}
+.shuoming{
+	overflow: hidden;
+    display: -webkit-box;
+    height: 1em;
+    color:#000;
+    -webkit-box-orient: vertical;
+}
+/*直降专场*/
+.floor-graphic{
+	width:100%;
+	height:9.5625rem;
+    font-size: 100%;
+    float: left;
+}
+.graphic-separationa{
+	width:7.8125rem;
+	height:9.5625rem;
+	float: left;
+}
+.graphic-separationa img{
+	width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+/*秒杀专场*/
+.seckill-floor{
+	width:100%;
+	height:10.875rem;
+	clear:both;
+}
+.seckill_title{
+	width:100%;
+	height:2.125rem;
+	line-height: 2.125rem;
+	overflow: hidden;
+}
+.seckill-left{
+	display: inline-block;
+    float: left;
+    width: 68%;
+    height:100%;
+}
+.seckill-left-img{
+	float: left;
+    display: inline-block;
+    width: 4.3125rem;
+    height: 1.6875rem;
+    margin-top: 0.25rem;
+    margin-right: 0.375rem;
+}
+.seckill-nth{
+	font-size: 0.75rem;
+    color: #232326;
+    font-weight: bold;
+    display: inline-block;
+}
+.seckill-right{
+	width: 32%;
+    display: inline-block;
+    color: #f23030;
+    float: right;
+    font-size: 0.625rem;
+}
+.seckill-right-icon{
+	display: inline-block;
+    width: 0.6875rem;
+    height: 0.6875rem;
+    background: url("./imgs/16.png") no-repeat;
+    background-size: cover;
+}
+.seckill-slider{
+	width:100%;
+	height:100%;
+	background:red;
+	overflow: hidden;
+}
+.seckill-list{
+
+}
+/*五一扫好货*/
+.floor {
+	width:100%;
+	overflow: hidden;
+	display: block;
+	background:yellow;
+}
+.floor img{
+	width:100%;
+}
+/*大服饰 西游记*/
+.floor-separation{
+	width:100%;
+	height:6.5625rem;
+	float: left;
+}
+.show-img{
+	width:50%;
+	height:100%;
+	float:left;
+}
+.show-img img{
+	width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+/*生活电器 数码狂欢购 全民火拼 电脑办公*/
+.floor-graphic-item{
+	width:100%;
+	height:7.5625rem;
+	overflow: hidden;
+	background:red;
+	float:left;
+}
+.graphic-separation{
+	width:25%;
+}
+.graphic-separation img{
+	width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+/*发现好货*/
+.faxian{
+	width:100%;
+	height:7.1875rem;
+	overflow: hidden;
+}
+.bdr-r{
+	width: 50%;
+	height:100%;
+    float: left;
+    overflow: hidden;
+}
+.real-show{
+    height: 2.694375rem;
+    float: left;
+    padding: 0.5rem 0 0 0.5rem;
+}
+.graphic-tit{
+	font-size: 1.0rem;
+    line-height: 1.375rem;
+    color: #181818;
+    overflow:hidden;
+    font-weight: 600;
+}
+.graphic-wz{
+	height: 0.9375rem;
+	width:5.6875rem;
+	color: #686868;
+    overflow: hidden;
+    font-size: 0.6875rem;
+    line-height: 0.9375rem;
+    margin-bottom: 0.125rem;
+}
+.graphic-imgs{
+	height: 5.8125rem;
+	overflow: hidden;
+}
+.graphic-imgs img{
+	width: auto;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.graphic-separation{
+	width: 25%;
+	height:100%;
+    float: left;
+}
+.graphic-img{
+	width:4.984375rem;
+	height:3.966875rem;
+	padding: 0 2px 0;
+    width: 100%;
+    overflow: hidden;
+}
+.graphic-img img{
+	overflow: hidden;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+/*爱生活*/
+.love{
+	width:100%;
+	height:23.125rem;
+}
+.floor-tit-imga{
+	width:100%;
+	height:2.4375rem;
+	position: relative;
+}
+.floor-tit-imga img{
+	width:100%;
+	height:100%;
+	position: relative;
+}
+.tit-img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0.4375rem;
+    bottom: 0;
+    height: 73.6%;
+    margin: auto;
+    display: block;
+    overflow: hidden;
+}
+.tit-img img{
+	display: block;
+    width: auto;
+    max-height: 100%;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0 auto;
+}
+.bdr-bottom{
+	width:100%;
+	height:6.5625rem;
+}
+.baobao{
+	width:100%;
+	height:7.5625rem;
+}
+/*发现好店*/
+.haodian{
+	height:10.734375rem;
+	width:100%;
+}
+.xiashen{
+	width:100%;
+	height:7.734375rem
+	overflow: hidden;
+	float:left;
+}
+.xial{
+	width: 50%;
+	height:100%;
+    position: relative;
+    float: left;
+}
+.tongxun{
+	padding: 0 0.1875rem;
+    font-size: 1.0rem;
+    line-height: 1.375rem;
+    color: #181818;
+    overflow: hidden;
+    font-weight: 600;
+}
+.tiaoshouji{
+	padding: 0 0.1875rem;
+	color: #686868;
+    overflow: hidden;
+    font-size: 0.6875rem;
+    line-height: 0.9375rem;
+    margin-bottom: 0.125rem;
+    height: 0.9375rem;
+}
+.tu{
+	position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.tu img{
+	width: 5.546875rem;
+    height: 5.546875rem;
+    display:block;
+    float: left;
+}
+.shop-name{
+	font-size: 0.8125rem;
+    line-height: 2.0625rem;
+    height: 2.0625rem;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+/*推荐*/
+/*尾巴*/
+#footer{
+	width: 23.4375rem;
+	height: 13.3125rem;
+	background: #F8F8F8;
+}
+#foot_login{
+	width: 23.4375rem;
+	height: 3.3125rem;
+}
+#foot_login>ul{
+	width: 20.0rem;
+	height: 3.3125rem;
+	margin:0 auto;
+}
+#foot_login>ul>li{
+	display: block;
+	float: left;
+	text-align: center;
+	line-height: 0.875rem;
+	height: 0.875rem;
+	margin-top:1.125rem;
+	padding:0 1.1875rem;
+	color:#999;
+}
+#foot_login>ul>li+li{
+	border-left: 0.0625rem solid #ccc;
+}
+#foot_app{
+	width: 19.875rem;
+	height: 4.3125rem;
+	margin:0 auto;
+}
+.app_box{
+	float: left;
+	width: 6.625rem;
+	height:4.3125rem;
+}
+#appo{
+	display: block;
+	width: 33px;
+	height:38px;
+	background:url(./imgs/jlt.png) -236px -136px no-repeat;
+	margin :0 auto;
+	margin-top: 0.375rem;
+	background-size:33px 38px;
+}
+
+/* APP名称 */
+.app_box>span{
+	display: block;
+	width: 2.5rem;
+	height: 0.875rem;
+	font-size: 0.75rem;
+	margin:0 auto;
+	/*background: yellow;*/
+	margin-top: 0.375rem;
+}
+
+#foot_site{
+	width:23.4375rem;
+	height: 2.75rem;
+	line-height: 2.75rem;
+	text-align: center;
+	color: #aaa;
+	font-size: 0.75rem;
+}

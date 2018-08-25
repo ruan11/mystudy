@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>我的购物车--京东商城</title>
+	<link type="text/css" rel="stylesheet" href="./css/shopcar.css">
+	<script type="text/javascript" src="./js/jquery-1.8.3.js"></script>
+	<script type="text/javascript" src="./js/shopcar.js"></script>
+</head>
+<body>
+	<!--第一部分-->
+	<div class="nav">
+		<div class="navd">
+			<!-- 设置地点开始 -->
+			<div class="navdzuo">
+				<div class="nzs">
+					<i><img src="./details_img/a1.png"></i>
+					<span>北京</span>
+				</div>
+				<div class="nzx">
+					<ul>
+						<li><a href="#">北京</a></li>
+						<li><a href="#">上海</a></li>
+						<li><a href="#">天津</a></li>
+						<li><a href="#">重庆</a></li>
+						<li><a href="#">河北</a></li>
+						<li><a href="#">山西</a></li>
+						<li><a href="#">河南</a></li>
+						<li><a href="#">辽宁</a></li>
+						<li><a href="#">吉林</a></li>
+						<li><a href="#">黑龙江</a></li>
+						<li><a href="#">内蒙古</a></li>
+						<li><a href="#">江苏</a></li>
+						<li><a href="#">山东</a></li>
+						<li><a href="#">安徽</a></li>
+						<li><a href="#">浙江</a></li>
+						<li><a href="#">福建</a></li>
+						<li><a href="#">湖北</a></li>
+						<li><a href="#">湖南</a></li>
+						<li><a href="#">广东</a></li>
+						<li><a href="#">广西</a></li>
+						<li><a href="#">江西</a></li>
+						<li><a href="#">四川</a></li>
+						<li><a href="#">海南</a></li>
+						<li><a href="#">贵州</a></li>
+						<li><a href="#">云南</a></li>
+						<li><a href="#">西藏</a></li>
+						<li><a href="#">陕西</a></li>
+						<li><a href="#">甘肃</a></li>
+						<li><a href="#">青海</a></li>
+						<li><a href="#">宁夏</a></li>
+						<li><a href="#">新疆</a></li>
+						<li><a href="#">港澳</a></li>
+						<li><a href="#">台湾</a></li>
+						<li><a href="#">钓鱼岛</a></li>
+						<li><a href="#">海外</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- 地点技术 -->
+			<div class="navdyou">
+				<ul>
+					<li><a href="#">你好，请登录</a><span></span></li>
+					<li><a href="#">免费注册</a><span>|</span></li>
+					<li><a href="#">我的订单</a><span>|</span></li>
+					<li>
+						<div class="xiahua">
+							<div class="dd">
+								<a href="#">我的京东</a>
+								<i><img src="./index_img/a2.png"></i>
+							</div>
+							<div class="xiahuak">
+								<ul>
+									<li><a href="#">待处理订单</a></li>
+									<li><a href="#">消息</a></li>
+									<li><a href="#">返修退换货</a></li>
+									<li><a href="#">我的问答</a></li>
+									<li><a href="#">降价商品</a></li>
+									<li><a href="#">我的关注</a></li>
+									<li><a href="#">我的京豆</a></li>
+									<li><a href="#">我的优惠券</a></li>
+									<li><a href="#">我的白条</a></li>
+									<li><a href="#">我的理财</a></li>
+								</ul>
+							</div>
+						</div>
+						<span class="xxx">|</span>
+					</li>
+					<li><a href="#">京东会员</a><span>|</span></li>
+					<li><a href="#">企业采购</a><span>|</span></li>
+					<li>
+						<div class="xiahua">
+							<div class="dd">
+								<span class="a">客户服务</span>
+								<i><img src="./index_img/a2.png"></i>
+							</div>
+							<div class="xiahuak">
+							
+							</div>
+						</div>
+						<span class="xxx">|</span>
+					</li>
+					<li>
+						<div class="xiahua">
+							<div class="dd">
+								<span class="a">网站导航</span>
+								<i><img src="./index_img/a2.png"></i>
+							</div>
+							<div class="xiahuak">
+							
+							</div>
+						</div>
+						<span class="xxx">|</span>
+					</li>
+					<li>
+						<div class="xiahua">
+							<div class="dd">
+								<span class="a">手机京东</span>
+							</div>
+							<div class="xiahuak">
+								<a href="#"><img src="./index_img/a3.png"></a>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<div id="main">
+		<div class="w">
+		<!--提醒框-->
+			<div class="nologin_tip fl clearfix">
+				<span class="wicon fl clearfix">您还没有登录！登录后购物车的商品将保存到您账号中</span>
+				<a class="btn-1 fl clearfix ml10">立即登录</a>
+			</div>
+			<!--全部商品-->
+			<div class="cart-filter-bar">
+				<div>
+					<ul class="switch-cart fl cf">
+						<li class="switch-cart-item curr">
+							<a href="#">
+								<span>全部商品</span>
+								<span class="number">2</span>
+								<div class="floater"><hr/></div>
+							</a>
+						</li>
+					</ul>
+					<div class="jd_address fr clearfix">
+						<span class="fl">配送至:</span>
+						<div class="address fl">
+							北京朝阳区三环到四环之间
+						</div>
+					</div>
+					<div class="floater fl"></div>
+				</div>	
+			</div>
+			<div class="cart_head">
+				<div class="cart_thead fl cf clearfix">
+					<div class="cart-checkbox fl clearfix">
+						<input checked="checked" id="toggle-checkboxes_up" name="toggle-checkboxes" class="jdcheckbox"  type="checkbox">
+						<label class="checked" for="">全选</label>
+						<input id="toggle-none_up" name="toggle-checkboxes" class="jdcheckbox"  type="checkbox">
+						<label class="checked" for="">全不选</label>
+						<input id="toggle-fan_up" name="toggle-checkboxes" class="jdcheckbox"  type="checkbox">
+						<label class="checked" for="">反选</label>
+					</div>
+					<div class="column t-goods fl">商品</div>
+					<div class="column t-props fl"></div>
+					<div class="column t-price fl">单价(元)</div>
+					<div class="column t-quantity fl">数量</div>
+					<div class="column t-sum fl">小计(元)</div>
+					<div class="column t-action fl">操作</div>
+				</div>
+				<div class="item_list">
+					<div class="shopping fl cf">
+					<div class="remove">
+						<div class="huangou fl cf clearfix">
+							<ul>
+								<li class="fl hg"><span>换购</span></li>
+								<li class="fl hd"><a>活动商品已购满1999.00元，可加价换购商品3件，还可换购3件&gt;</a></li>
+								<li class="fl hgsp"><span>换购商品</span></li>
+								<li class="fl cd"><span>去凑单&gt;</span></li>
+								
+							</ul>
+						</div>
+						<div class="apple fl cf">
+							
+								<div class="cart-checkbox fl cf clearbox">
+									<div class="p-msg fl">
+										<input checked="checked" id="toggle-checkboxes_up" name="toggle-checkboxes" class="jdcheckbox" type="checkbox">
+									</div>
+								</div>
+								<div class="p-goods fl ">
+									<div>
+										<a href="#" class="imgA fl"><img src="./shop-img/55f0e7b5Nf1ed773f.jpg"  alt="Apple iPhone 6s (A1700) 64G 金色 移动联通电信4G手机"></img></a>
+										<a href="#" class="alt fl"><span>Apple iPhone 6s (A1700) 64G 金色 移<br/>动联通电信4G手机</span></a>
+									</div>
+									<div>	
+										<a href="#" class="gm fl">购买礼品包装</a>
+										<br/>
+										<a href="#" class="gm fl">购买京东服务</a>
+									</div>
+								</div>
+								<div class="p-props fl">
+									<span>颜色:金色</span>
+									<br/>
+									<span>尺码:公开版</span>
+								</div>
+								<div class="p_price fl">
+									<span>¥</span><strong>5788.00</strong>
+									<br/>
+									<a href="#">促销优惠</a>
+								</div>
+								
+								<div class="quantity-form fl clearfix" promoid="186769924">
+									<span class="num decrement disabled">-</span>
+									<span class="itxt changeQuantity">1</span>
+									<span class="num increment">+</span>
+									<div class="quantity-txt">有货</div>
+								</div>
+								
+								<div class="sum fl">
+									<div></div>
+									<span>¥</span><span class="xiaoji"></span>
+								</div>
+								<div class="p-ops fl">
+										<a class="cart-remove" href="#">删除</a>
+										<br/>
+										<a href="#" class="cart-follow" id="follow_8888_1856585_13_186769924" >移到我的关注</a>
+								</div>
+						</div>
+					</div>
+					<div class="remove">
+						<div class="huangou fl cf clearfix">
+							<ul>
+								<li class="fl hg"><span>满减</span></li>
+								<li class="fl hd"><a>活动商品已购满6000.00元&nbsp;&nbsp;(<span class="yj">已减600.00</span>)&gt;</a></li>
+								<li class="fl cd"><span>去凑单&gt;</span></li>
+								
+							</ul>
+						</div>
+						<div class="apple fl cf">
+							
+								<div class="cart-checkbox fl cf clearbox">
+									<div class="p-msg fl">
+										<input checked="checked" id="toggle-checkboxes_up" name="toggle-checkboxes" class="jdcheckbox" clstag="clickcart|keycount|xincart|cart_allCheck" type="checkbox">
+									</div>
+								</div>
+								<div class="p-goods fl ">
+									<div>
+										<a href="#" class="imgA fl"><img src="./shop-img/5631d26dN76aa67ab.jpg" alt="Apple iPhone 6s (A1700) 64G 金色 移动联通电信4G手机"></img></a>
+										<a href="#" class="alt fl"><span>Apple MacBook Air 13.3英寸笔记本电<br/>脑 银色(Core i5 处理器/4GB内存</span></a>
+									</div>
+									<div>	
+										<a href="#" class="gm fl">购买京东服务</a>
+									</div>
+								</div>
+								<div class="p-props fl">
+									<span>颜色：MacBook air</span>
+									<br/>
+									<span>尺码：13.3英寸</span>
+								</div>
+								<div class="p_price fl">
+									<span>¥</span><strong>6988.00</strong>
+									<br/>
+									<a href="#">促销优惠</a>
+								</div>
+								
+								<div class="quantity-form fl" promoid="186769924">
+									<span class="num decrement disabled">-</span>
+									<span class="itxt changeQuantity">1</span>
+									<span class=" num increment">+</span>
+									<div class="quantity-txt">有货</div>
+								</div>
+								
+								<div class="sum fl">
+									<div></div>
+									<span>¥</span><span class="xiaoji"></span>
+								</div>
+								<div class="p-ops fl">
+										<a class="cart-remove" href="#">删除</a>
+										<br/>
+										<a href="#" class="cart-follow" id="follow_8888_1856585_13_186769924">移到我的关注</a>
+								</div>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+			<div class="jiesuan cf clearfix">
+				<div class="cart-checkbox fl clearfix">
+					<input checked="checked" id="checkboxes_up" name="toggle-checkboxes" class="jdcheckbox" type="checkbox">
+					<label class="checked" for="">全选</label>
+				</div>
+				<a href="#" class="remove-batch fl">删除选中的商品</a>
+				<a href="#" class="remove-guanzhu fl">移到我的关注</a>
+				<div class="chose fl">已选择<em class="chose_num"></em>商品</div>
+				<div class="fl price-sum">
+					<div>
+						<span class="txt">总价（不含运费）：</span>
+						<span class="price sumPrice"><em>￥</em><em class="em">12176.00</em></span>
+						
+						<span class="txt">已节省：</span>
+						<span class="price totalRePrice">-￥600.00</span>
+					</div>
+				</div>
+				<b class="fr">去结算</b>
+			</div>
+			<div class="tab-nav">
+				<ul>
+					<li class="c-tabs-item curr"><h3>猜你喜欢</h3></li>
+				</ul>
+			</div>
+			<div class="guess-products">
+				<div class="p-list">
+					<div class="p-list-cont ui-switchable-body">
+						<ul>
+							<li class="fl">
+								<div class="p-item">
+									<div class="p-img"><a href="#"><img alt="dostyle MD208触控滚轮2.4G无线鼠标 米罗银" src="./shop-img/1.jpg"></a></div>
+									<div class="p-name"><a href="#" target="_blank" >dostyle MD208触控滚轮2.4G无线鼠标 米罗银</a></div>
+									<div class="p-price"><strong>$139</strong></div>
+									<div class="p-btn">
+										<a class="btn-9" href="#"><span class="btn-text">加入购物车<span></a>
+									</div>
+								</div>
+							</li>
+							<li class="fl">
+								<div class="p-item">
+									<div class="p-img"><a href="#"><img alt="优越者（UNITEK）Y-2146 苹果笔记本/超级本迷你直插式 4口USB HUB集线器(白色)" src="./shop-img/1.jpg"></img></a></div>
+									<div class="p-name"><a href="#" target="_blank" >优越者（UNITEK）Y-2146 苹果笔记本/超级本迷你直插式 4口USB HUB集线器(白色)</a></div>
+									<div class="p-price"><strong>$9.9</strong></div>
+									<div class="p-btn">
+										<a class="btn-9" href="#"><span class="btn-text">加入购物车<span></a>
+									</div>
+								</div>
+							</li>
+							<li class="fl">
+								<div class="p-item">
+									<div class="p-img"><a href="#"><img alt="dostyle LC201 信封式笔记本内胆包 14寸 超极本适用" src="./shop-img/1.jpg"></img></a></div>
+									<div class="p-name"><a href="#" target="_blank" >dostyle LC201 信封式笔记本内胆包 14寸 超极本适用</a></div>
+									<div class="p-price"><strong>$99</strong></div>
+									<div class="p-btn">
+										<a class="btn-9" href="#"><span class="btn-text">加入购物车<span></a>
+									</div>
+								</div>
+							</li>
+							<li class="fl">
+								<div class="p-item">
+									<div class="p-img"><a href="#"><img alt="奥维尼 呼吸防震笔记本电脑包 12.5英寸 13.3英寸 苹果MacBook Air Pro 三星 联想Yoga 内胆包 优雅灰 " src="./shop-img/1.jpg"></img></a></div>
+									<div class="p-name"><a href="#" target="_blank" >奥维尼 呼吸防震笔记本电脑包 12.5英寸 13.3英寸 苹果MacBook Air Pro 三星 联想Yoga 内胆包 优雅灰 </a></div>
+									<div class="p-price"><strong>$79</strong></div>
+									<div class="p-btn">
+										<a class="btn-9" href="#"><span class="btn-text">加入购物车<span></a>
+									</div>
+								</div>
+							</li>
+							<li class="fl">
+								<div class="p-item">
+									<div class="p-img"><a href="#"><img alt="罗技（Logitech）M275 无线鼠标 白色" src="./shop-img/1.jpg"></img></a></div>
+									<div class="p-name"><a href="#" target="_blank" >罗技（Logitech）M275 无线鼠标 白色</a></div>
+									<div class="p-price"><strong>$139</strong></div>
+									<div class="p-btn">
+										<a class="btn-9" href="#"><span class="btn-text">加入购物车<span></a>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="du">畅读卡</div>
+		<div id="container">
+			<div class="card">
+				<div class="intro">
+					<p class="title">京东电子书畅读VIP</p>
+					<p class="time">年卡360天</p>
+					<div class="circle"></div>
+				</div>
+				<div class="buy">
+					<p class="price">￥90.00</p>
+					<p class="car">
+						<span><i></i><label>加入购物车</label></span></p>
+				</div>
+			</div>
+			<div class="card">
+				<div class="intro">
+					<p class="title">京东电子书畅读VIP</p>
+					<p class="time">年卡360天</p>
+					<div class="circle"></div>
+				</div>
+				<div class="buy">
+					<p class="price">￥90.00</p>
+					<p class="car">
+						<span><i></i><label>加入购物车</label></span></p>
+				</div>
+			</div>
+			<div class="card">
+				<div class="intro">
+					<p class="title">京东电子书畅读VIP</p>
+					<p class="time">年卡360天</p>
+					<div class="circle"></div>
+				</div>
+				<div class="buy">
+					<p class="price">￥90.00</p>
+					<p class="car">
+						<span><i></i><label>加入购物车</label></span></p>
+				</div>
+			</div>
+			<div class="card">
+				<div class="intro">
+					<p class="title">京东电子书畅读VIP</p>
+					<p class="time">年卡360天</p>
+					<div class="circle"></div>
+				</div>
+				<div class="buy">
+					<p class="price">￥90.00</p>
+					<p class="car">
+						<span><i></i><label>加入购物车</label></span></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="service_2014" class="clearfix fl">
+		<div class="slogen">
+			<span class="item fore1 fl"><p><b>多</b>品类齐全,轻松购物</p></span>
+			<span class="item fore2 fl"><p><b>快</b>多仓直发，极速配送</p></span>
+			<span class="item fore3 fl"><p><b>好</b>正品行货，精致服务</p></span>
+			<span class="item fore4 fl"><p><b>省</b>天天低价，畅选无忧</p></span>
+		</div>
+		<div class="w">
+			<div class="shouhoufuwu fl clearfix">
+				<dl class="fore1 fl">
+					<dt>购物指南</dt>
+					<dd><a href="#">购物流程</a></dd>
+					<dd><a href="#">会员介绍</a></dd>
+					<dd><a href="#">生活旅行/团购</a></dd>
+					<dd><a href="#">常见问题</a></dd>
+					<dd><a href="#">大家电</a></dd>
+					<dd><a href="#">联系客服</a></dd>
+				</dl>
+				<dl class="fore2 fl">
+					<dt>配送方式</dt>
+					<dd><a href="#">上门自提</a></dd>
+					<dd><a href="#">211限时达</a></dd>
+					<dd><a href="#">配送服务查询</a></dd>
+					<dd><a href="#">配送费收费标准</a></dd>
+					<dd><a href="#">海外配送</a></dd>
+				</dl>
+				<dl class="fore3 fl">
+					<dt>支付方式</dt>
+					<dd><a href="#">货到付款</a></dd>
+					<dd><a href="#">在线支付</a></dd>
+					<dd><a href="#">分期付款</a></dd>
+					<dd><a href="#">邮局付款</a></dd>
+					<dd><a href="#">公司转账</a></dd>
+				</dl>
+				<dl class="fore4 fl">
+					<dt>售后服务</dt>
+					<dd><a href="#">售后政策</a></dd>
+					<dd><a href="#">价格保护</a></dd>
+					<dd><a href="#">退款说明</a></dd>
+					<dd><a href="#">返修/退换货</a></dd>
+					<dd><a href="#">取消订单</a></dd>
+				</dl>
+				<dl class="fore5 fl tese">
+					<dt>特色服务</dt>
+					<dd><a href="#">夺宝岛</a></dd>
+					<dd><a href="#">DIY装机</a></dd>
+					<dd><a href="#">延保服务</a></dd>
+					<dd><a href="#">京东E卡</a></dd>
+					<dd><a href="#">京东通信</a></dd>
+					<dd><a href="#">京东JD+</a></dd>
+				</dl>
+			</div>
+		</div>
+	</div>
+	<div id="footer_2014">
+		<div class="w">
+			<div class="links cf">
+				<div class="box_main_two">
+					<ul class="fl cf xiu_one_box">
+						<li class="fl"><a href="#" target="_blank" rel="nofollow">关于我们</a></li>
+						<li class="fl">|</li>
+						<li class="fl"><a href="#" target="_blank" rel="nofollow">联系我们</a></li>
+						<li class="fl">|</li>
+						<li class="fl"><a href="#" target="_blank" rel="nofollow">商家入驻</a></li>
+						<li class="fl">|</li>
+						<li class="fl"><a href="#" target="_blank" rel="nofollow">营销中心</a></li>
+						<li class="fl">|</li>
+						<li class="fl"><a href="#" target="_blank" rel="nofollow">手机京东</a></li>
+						<li class="fl">|</li>
+						<li class="fl"><a href="#" target="_blank" rel="nofollow">友情链接</a></li>
+						<li class="fl">|</li>
+						<li class="fl"><a href="#" target="_blank" rel="nofollow">销售联盟</a></li>
+						<li class="fl">|</li>
+						<li class="fl"><a href="#" target="_blank" rel="nofollow">京东社区</a></li>
+						<li class="fl">|</li>
+						<li class="fl"><a href="#" target="_blank" rel="nofollow">京东公益</a></li>
+						<li class="fl">|</li>
+						<li class="fl"><a href="#" target="_blank" rel="nofollow">English Site</a></li>
+						<li class="fl">|</li>
+						<li class="fl"><a href="#" target="_blank" rel="nofollow">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="copyright">
+				北京市公安局朝阳分局备案编号110105014669  |  京ICP证070359号  |
+				<a href="#" target="_blank">互联网药品信息服务资格证编号(京)-经营性-2014-0008</a>
+				  |  新出发京零 字第大120007号
+				<br/>
+				<a href="#" target="_blank">音像制品经营许可证苏宿批005号</a>
+				  |  出版物经营许可证编号新出发(苏)批字第N-012号  |  互联网出版许可证编号新出网证(京)字150号
+				<br/>
+				<a href="#" target="_blank">网络文化经营许可证京网文[2014]2148-348号</a>
+				  违法和不良信息举报电话：4006561155  Copyright © 2004-2015  京东JD.com 版权所有
+				<br/>
+				京东旗下网站：<a href="#" target="_blank" class="wang">360TOP</a>
+				<a class="wang" href="#" target="_blank">拍拍网</a>
+				<a class="wang" href="#" target="_blank">网银在线</a>
+			</div>
+			<div class="backpanel-inner">
+				<div id="bp-follow" class="bp-item ">
+					<a class="survey" href="#" target="_blank">我的关注</a>
+				</div>
+				<div id="bp-faq" class="bp-item ">
+					<a class="survey" href="#" target="_blank">常见问题</a>
+				</div>
+				<div id="bp-survery" class="bp-item ">
+					<a class="survey" href="#" target="_blank">我要反馈</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

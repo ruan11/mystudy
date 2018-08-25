@@ -1,0 +1,666 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+	<title>京东商城</title>
+	<link rel="stylesheet" href="./reset.css">
+	<!-- 引入自定义的样式文件 -->
+	<link rel="stylesheet" href="./index.css">
+	<!-- 引入swiper插件 -->
+	<script src="./swiper-3.4.2.min.js"></script>
+
+</head>
+<body style="height:1250.0rem">
+	<!--定位搜索框-->
+	<div class="search-box">
+		<div class="search">
+			<span class="search-login"></span>
+			<span class="search-iocn"></span>
+			<input type="text" placeholder="搜索京东商品/店铺">
+		</div>
+		<span class="denglu">登录</span>
+	</div>
+	<!--轮播图-->
+	<!-- 大容器 -->
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<!-- 每一个滑动的元素 -->
+			<div class="swiper-slide">
+				<img src="./imgs/1.jpg" alt="">
+			</div>
+			<div class="swiper-slide">
+				<img src="./imgs/2.jpg" alt="">
+			</div>
+			<div class="swiper-slide">
+				<img src="./imgs/3.jpg" alt="">
+			</div>
+			<div class="swiper-slide">
+				<img src="./imgs/4.jpg" alt="">
+			</div><div class="swiper-slide">
+				<img src="./imgs/5.jpg" alt="">
+			</div><div class="swiper-slide">
+				<img src="./imgs/6.jpg" alt="">
+			</div><div class="swiper-slide">
+				<img src="./imgs/7.jpg" alt="">
+			</div>
+		</div>
+	</div>
+	<!--菜单-->
+	<div class="appcenter">
+		<ul>
+			<li>
+				<span class="quick-box">
+					<img height="45" width="45" src="./imgs/4.png" alt="">
+					<span class="shuoming">京东超市</span>
+				</span>
+			</li>
+			<li>
+				<span class="quick-box">
+					<img  height="45" width="45" src="./imgs/5.png" alt="">
+					<span class="shuoming">全球购</span>
+				</span>
+			</li>
+			<li>
+				<span class="quick-box">
+					<img  height="45" width="45" src="./imgs/6.png" alt="">
+					<span class="shuoming">服装城</span>
+				</span>
+			</li>
+			<li>
+				<span class="quick-box">
+					<img  height="45" width="45" src="./imgs/7.png" alt="">
+					<span class="shuoming">京东生鲜</span>
+				</span>
+			</li>
+			<li>
+				<span class="quick-box">
+					<img  height="45" width="45" src="./imgs/8.png" alt="">
+					<span class="shuoming">京东到家</span>
+				</span>
+			</li>
+			<li>
+				<span class="quick-box">
+					<img   height="45" width="45" src="./imgs/9.png" alt="">
+					<span class="shuoming">充值缴费</span>
+				</span>
+			</li>
+			<li>
+				<span class="quick-box">
+					<img  height="45" width="45" src="./imgs/10.png" alt="">
+					<span class="shuoming">惠赚钱</span>
+				</span>
+			</li>
+			<li>
+				<span class="quick-box">
+					<img  height="45" width="45"  src="./imgs/11.png" alt="">
+					<span class="shuoming">领券</span>
+				</span>
+			</li>
+			<li>
+				<span class="quick-box">
+					<img  height="45" width="45" src="./imgs/12.png" alt="">
+					<span class="shuoming">物流查询</span>
+				</span>
+			</li>
+			<li>
+				<span class="quick-box">
+					<img  height="45" width="45" src="./imgs/13.png" alt="">
+					<span class="shuoming">领京豆</span>
+				</span>
+			</li>
+			
+		</ul>
+	</div>
+	<!--直降专场-->
+	<div class="floor-graphic">
+		<div class="graphic-separationa">
+			<img src="./imgs/8.jpg" alt="">
+		</div>
+		<div class="graphic-separationa">
+			<img src="./imgs/9.jpg" alt="">
+		</div>
+		<div class="graphic-separationa">
+			<img src="./imgs/10.jpg" alt="">
+		</div>
+	</div>
+	<!--京东秒杀-->
+	<div class="seckill-floor">
+		<div class="seckill_title">
+			<div class="seckill-left">
+				<img src="./imgs/15.png" alt="" class="seckill-left-img">
+				<strong class="seckill-nth">10点场</strong>
+				<!-- 倒计时 -->
+				<div></div>
+			</div>
+			<div class="seckill-right">
+				心跳秒杀玩点嗨的
+				<i class="seckill-right-icon"></i>
+			</div>
+		</div>
+		<div class="seckill-slider">
+			<ul class="seckill-list"></ul>
+		</div>
+	</div>
+	<!-- 五一扫好货 -->
+	<div class="floor ">
+		<img src="./imgs/11.jpg" alt="">
+	</div>
+	<!-- 大服饰 西游记 -->
+	<div class="floor-separation">
+		<div class="show-img">
+			<img src="./imgs/12.jpg" alt="">
+		</div>
+		<div class="show-img">
+			<img src="./imgs/13.jpg" alt="">
+		</div>
+	</div>
+	<!-- 生活电器 数码狂欢购 全民火拼 电脑办公 -->
+	<div class="floor-graphic-item">
+		<div class="graphic-separation">
+			<img src="./imgs/14.jpg" alt="">
+		</div>
+		<div class="graphic-separation">
+			<img src="./imgs/16.jpg" alt="">
+		</div>
+		<div class="graphic-separation">
+			<img src="./imgs/17.jpg" alt="">
+		</div>
+		<div class="graphic-separation">
+			<img src="./imgs/18.jpg" alt="">
+		</div>
+	</div>
+	<!-- 发现好货 -->
+	<div class="faxian">
+		<div class="bdr-r">
+			<div class="real-show">
+				<strong class="graphic-tit">发现好货</strong>
+				<p class="graphic-wz">发现品质生活</p>
+			</div>
+			<div class="graphic-imgs">
+				<img src="./imgs/19.jpg" alt="">
+			</div>
+		</div>
+		<div class="graphic-separation">
+			<div class="real-show">
+				<strong class="graphic-tit">排行榜</strong>
+				<p class="graphic-wz">热卖爆款集结</p>
+			</div>
+			<div class="graphic-img">
+				<img src="./imgs/20.jpg" alt="">
+			</div>
+		</div>
+		<div class="graphic-separation">
+			<div class="real-show">
+				<strong class="graphic-tit">闪购</strong>
+				<p class="graphic-wz">品牌特卖</p>
+			</div>
+			<div class="graphic-img">
+				<img src="./imgs/21.jpg" alt="">
+			</div>
+		</div>
+	</div>
+	<!-- 爱生活 -->
+	<div class="love">
+		<div class="floor-tit-imga">
+			<img src="./imgs/17.png" alt="">
+			<span class="tit-img">
+				<img src="./imgs/22.jpg" alt="">
+			</span>
+		</div>
+		<!-- 玩3C 京东家电 -->
+		<div class="bdr-bottom">
+			<div class="bdr-r">
+				<div class="real-show">
+					<strong class="graphic-tit">发现好货</strong>
+					<p class="graphic-wz">发现品质生活</p>
+				</div>
+				<div class="graphic-imgs">
+					<img src="./imgs/19.jpg" alt="">
+				</div>
+			</div>
+			<div class="bdr-r">
+				<div class="real-show">
+					<strong class="graphic-tit">发现好货</strong>
+					<p class="graphic-wz">发现品质生活</p>
+				</div>
+				<div class="graphic-imgs">
+					<img src="./imgs/19.jpg" alt="">
+				</div>
+			</div>
+		</div>
+		<!-- 京东超市 爱家	 -->
+		<div class="bdr-bottom">
+			<div class="bdr-r">
+				<div class="real-show">
+					<strong class="graphic-tit">发现好货</strong>
+					<p class="graphic-wz">发现品质生活</p>
+				</div>
+				<div class="graphic-imgs">
+					<img src="./imgs/19.jpg" alt="">
+				</div>
+			</div>
+			<div class="bdr-r">
+				<div class="real-show">
+					<strong class="graphic-tit">发现好货</strong>
+					<p class="graphic-wz">发现品质生活</p>
+				</div>
+				<div class="graphic-imgs">
+					<img src="./imgs/19.jpg" alt="">
+				</div>
+			</div>
+		</div>
+		<!-- 爱宝宝 爱美丽 爱吃 爱穿搭 -->
+		<div class="baobao">
+			<div class="graphic-separation">
+				<div class="real-show">
+					<strong class="graphic-tit">排行榜</strong>
+					<p class="graphic-wz">热卖爆款集结</p>
+				</div>
+				<div class="graphic-img">
+					<img src="./imgs/20.jpg" alt="">
+				</div>
+			</div>
+			<div class="graphic-separation">
+				<div class="real-show">
+					<strong class="graphic-tit">闪购</strong>
+					<p class="graphic-wz">品牌特卖</p>
+				</div>
+				<div class="graphic-img">
+					<img src="./imgs/21.jpg" alt="">
+				</div>
+			</div>
+			<div class="graphic-separation">
+				<div class="real-show">
+					<strong class="graphic-tit">排行榜</strong>
+					<p class="graphic-wz">热卖爆款集结</p>
+				</div>
+				<div class="graphic-img">
+					<img src="./imgs/20.jpg" alt="">
+				</div>
+			</div>
+			<div class="graphic-separation">
+				<div class="real-show">
+					<strong class="graphic-tit">闪购</strong>
+					<p class="graphic-wz">品牌特卖</p>
+				</div>
+				<div class="graphic-img">
+					<img src="./imgs/21.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 第二个轮播图 -->
+	<div class="lunbo">
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<!-- 每一个滑动的元素 -->
+				<div class="swiper-slide">
+					<img src="./imgs/1.jpg" alt="">
+				</div>
+				<div class="swiper-slide">
+					<img src="./imgs/2.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 购特色 -->
+	<div class="love">
+		<div class="floor-tit-imga">
+			<img src="./imgs/17.png" alt="">
+			<span class="tit-img">
+				<img src="./imgs/23.jpg" alt="">
+			</span>
+		</div>
+		<!-- 玩3C 京东家电 -->
+		<div class="bdr-bottom">
+			<div class="bdr-r">
+				<div class="real-show">
+					<strong class="graphic-tit">发现好货</strong>
+					<p class="graphic-wz">发现品质生活</p>
+				</div>
+				<div class="graphic-imgs">
+					<img src="./imgs/19.jpg" alt="">
+				</div>
+			</div>
+			<div class="bdr-r">
+				<div class="real-show">
+					<strong class="graphic-tit">发现好货</strong>
+					<p class="graphic-wz">发现品质生活</p>
+				</div>
+				<div class="graphic-imgs">
+					<img src="./imgs/19.jpg" alt="">
+				</div>
+			</div>
+		</div>
+		<!-- 京东超市 爱家	 -->
+		<div class="bdr-bottom">
+			<div class="bdr-r">
+				<div class="real-show">
+					<strong class="graphic-tit">发现好货</strong>
+					<p class="graphic-wz">发现品质生活</p>
+				</div>
+				<div class="graphic-imgs">
+					<img src="./imgs/19.jpg" alt="">
+				</div>
+			</div>
+			<div class="bdr-r">
+				<div class="real-show">
+					<strong class="graphic-tit">发现好货</strong>
+					<p class="graphic-wz">发现品质生活</p>
+				</div>
+				<div class="graphic-imgs">
+					<img src="./imgs/19.jpg" alt="">
+				</div>
+			</div>
+		</div>
+		<!-- 爱宝宝 爱美丽 爱吃 爱穿搭 -->
+		<div class="baobao">
+			<div class="graphic-separation">
+				<div class="real-show">
+					<strong class="graphic-tit">排行榜</strong>
+					<p class="graphic-wz">热卖爆款集结</p>
+				</div>
+				<div class="graphic-img">
+					<img src="./imgs/20.jpg" alt="">
+				</div>
+			</div>
+			<div class="graphic-separation">
+				<div class="real-show">
+					<strong class="graphic-tit">闪购</strong>
+					<p class="graphic-wz">品牌特卖</p>
+				</div>
+				<div class="graphic-img">
+					<img src="./imgs/21.jpg" alt="">
+				</div>
+			</div>
+			<div class="graphic-separation">
+				<div class="real-show">
+					<strong class="graphic-tit">排行榜</strong>
+					<p class="graphic-wz">热卖爆款集结</p>
+				</div>
+				<div class="graphic-img">
+					<img src="./imgs/20.jpg" alt="">
+				</div>
+			</div>
+			<div class="graphic-separation">
+				<div class="real-show">
+					<strong class="graphic-tit">闪购</strong>
+					<p class="graphic-wz">品牌特卖</p>
+				</div>
+				<div class="graphic-img">
+					<img src="./imgs/21.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 第三个轮播图 -->
+	<div class="lunbo">
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<!-- 每一个滑动的元素 -->
+				<div class="swiper-slide">
+					<img src="./imgs/1.jpg" alt="">
+				</div>
+				<div class="swiper-slide">
+					<img src="./imgs/2.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 逛商场 -->
+	<div class="love">
+		<div class="floor-tit-imga">
+			<img src="./imgs/17.png" alt="">
+			<span class="tit-img">
+				<img src="./imgs/24.jpg" alt="">
+			</span>
+		</div>
+		<!-- 玩3C 京东家电 -->
+		<div class="bdr-bottom">
+			<div class="bdr-r">
+				<div class="real-show">
+					<strong class="graphic-tit">发现好货</strong>
+					<p class="graphic-wz">发现品质生活</p>
+				</div>
+				<div class="graphic-imgs">
+					<img src="./imgs/19.jpg" alt="">
+				</div>
+			</div>
+			<div class="bdr-r">
+				<div class="real-show">
+					<strong class="graphic-tit">发现好货</strong>
+					<p class="graphic-wz">发现品质生活</p>
+				</div>
+				<div class="graphic-imgs">
+					<img src="./imgs/19.jpg" alt="">
+				</div>
+			</div>
+		</div>
+		<!-- 京东超市 爱家	 -->
+		<div class="bdr-bottom">
+			<div class="bdr-r">
+				<div class="real-show">
+					<strong class="graphic-tit">发现好货</strong>
+					<p class="graphic-wz">发现品质生活</p>
+				</div>
+				<div class="graphic-imgs">
+					<img src="./imgs/19.jpg" alt="">
+				</div>
+			</div>
+			<div class="bdr-r">
+				<div class="real-show">
+					<strong class="graphic-tit">发现好货</strong>
+					<p class="graphic-wz">发现品质生活</p>
+				</div>
+				<div class="graphic-imgs">
+					<img src="./imgs/19.jpg" alt="">
+				</div>
+			</div>
+		</div>
+		<!-- 爱宝宝 爱美丽 爱吃 爱穿搭 -->
+		<div class="baobao">
+			<div class="graphic-separation">
+				<div class="real-show">
+					<strong class="graphic-tit">排行榜</strong>
+					<p class="graphic-wz">热卖爆款集结</p>
+				</div>
+				<div class="graphic-img">
+					<img src="./imgs/20.jpg" alt="">
+				</div>
+			</div>
+			<div class="graphic-separation">
+				<div class="real-show">
+					<strong class="graphic-tit">闪购</strong>
+					<p class="graphic-wz">品牌特卖</p>
+				</div>
+				<div class="graphic-img">
+					<img src="./imgs/21.jpg" alt="">
+				</div>
+			</div>
+			<div class="graphic-separation">
+				<div class="real-show">
+					<strong class="graphic-tit">排行榜</strong>
+					<p class="graphic-wz">热卖爆款集结</p>
+				</div>
+				<div class="graphic-img">
+					<img src="./imgs/20.jpg" alt="">
+				</div>
+			</div>
+			<div class="graphic-separation">
+				<div class="real-show">
+					<strong class="graphic-tit">闪购</strong>
+					<p class="graphic-wz">品牌特卖</p>
+				</div>
+				<div class="graphic-img">
+					<img src="./imgs/21.jpg" alt="">
+				</div>
+			</div>
+		</div>
+		<!-- 爱宝宝 爱美丽 爱吃 爱穿搭 -->
+		<div class="baobao">
+			<div class="graphic-separation">
+				<div class="real-show">
+					<strong class="graphic-tit">排行榜</strong>
+					<p class="graphic-wz">热卖爆款集结</p>
+				</div>
+				<div class="graphic-img">
+					<img src="./imgs/20.jpg" alt="">
+				</div>
+			</div>
+			<div class="graphic-separation">
+				<div class="real-show">
+					<strong class="graphic-tit">闪购</strong>
+					<p class="graphic-wz">品牌特卖</p>
+				</div>
+				<div class="graphic-img">
+					<img src="./imgs/21.jpg" alt="">
+				</div>
+			</div>
+			<div class="graphic-separation">
+				<div class="real-show">
+					<strong class="graphic-tit">排行榜</strong>
+					<p class="graphic-wz">热卖爆款集结</p>
+				</div>
+				<div class="graphic-img">
+					<img src="./imgs/20.jpg" alt="">
+				</div>
+			</div>
+			<div class="graphic-separation">
+				<div class="real-show">
+					<strong class="graphic-tit">闪购</strong>
+					<p class="graphic-wz">品牌特卖</p>
+				</div>
+				<div class="graphic-img">
+					<img src="./imgs/21.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 1小时速达专区 -->
+	<div class="floor ">
+		<img src="./imgs/11.jpg" alt="">
+	</div>
+	<!-- 发现好店 -->
+	<div class="haodian">
+		<div class="floor-tit-imga">
+			<img src="./imgs/17.png" alt="">
+			<span class="tit-img">
+				<img src="./imgs/25.jpg" alt="">
+			</span>
+		</div>
+		<div class="xiashen">
+			<div class="xial">
+				<strong class="tongxun">手机通讯</strong>
+				<p class="tiaoshouji">是不是在挑手机？</p>
+				<div class="tu">
+					<img src="./imgs/26.jpg" alt="">
+					<img src="./imgs/27.jpg" alt="">
+					<p class="shop-name">京东Apple产品专营店</p>
+				</div>
+			</div>
+			<div class="xial">
+				<strong class="tongxun">手机通讯</strong>
+				<p class="tiaoshouji">是不是在挑手机？</p>
+				<div class="tu">
+					<img src="./imgs/26.jpg" alt="">
+					<img src="./imgs/27.jpg" alt="">
+					<p class="shop-name">京东Apple产品专营店</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 优选清单 -->
+	<div class="haodian">
+		<div class="floor-tit-imga">
+			<img src="./imgs/17.png" alt="">
+			<span class="tit-img">
+				<img src="./imgs/28.jpg" alt="">
+			</span>
+		</div>
+		<div class="xiashen">
+			<div class="xial">
+				<strong class="tongxun">手机通讯</strong>
+				<p class="tiaoshouji">是不是在挑手机？</p>
+				<div class="tu">
+					<img src="./imgs/26.jpg" alt="">
+					<img src="./imgs/27.jpg" alt="">
+					<p class="shop-name">京东Apple产品专营店</p>
+				</div>
+			</div>
+			<div class="xial">
+				<strong class="tongxun">手机通讯</strong>
+				<p class="tiaoshouji">是不是在挑手机？</p>
+				<div class="tu">
+					<img src="./imgs/26.jpg" alt="">
+					<img src="./imgs/27.jpg" alt="">
+					<p class="shop-name">京东Apple产品专营店</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 直播 -->
+	<div class="haodian">
+		<div class="floor-tit-imga">
+			<img src="./imgs/17.png" alt="">
+			<span class="tit-img">
+				<img src="./imgs/29.jpg" alt="">
+			</span>
+		</div>
+		<div class="xiashen">
+			<div class="xial">
+				<strong class="tongxun">手机通讯</strong>
+				<p class="tiaoshouji">是不是在挑手机？</p>
+				<div class="tu">
+					<img src="./imgs/26.jpg" alt="">
+					<img src="./imgs/27.jpg" alt="">
+					<p class="shop-name">京东Apple产品专营店</p>
+				</div>
+			</div>
+			<div class="xial">
+				<strong class="tongxun">手机通讯</strong>
+				<p class="tiaoshouji">是不是在挑手机？</p>
+				<div class="tu">
+					<img src="./imgs/26.jpg" alt="">
+					<img src="./imgs/27.jpg" alt="">
+					<p class="shop-name">京东Apple产品专营店</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 为你推荐 -->
+	<!-- 尾巴 -->
+	<div id="footer">
+		<div id="foot_login">
+			<ul>
+				<li>登录</li>
+				<li>注册</li>
+				<li>反馈</li>
+				<li>回到顶部</li>
+			</ul>
+		</div>
+		<div id="foot_app">
+			<div class="app_box">
+				<i id="appo">
+					<img src="./imgs/jlt1.png">
+				</i>
+				<span>客户端</span>
+			</div>
+			<div class="app_box">
+				<i id="appo">
+					<img src="./imgs/jlt2.png">
+				</i>
+				<span>触屏版</span>
+			</div>
+			<div class="app_box">
+				<i id="appo">
+					<img src="./imgs/jlt3.png">
+				</i>
+				<span>电脑版</span>
+			</div>
+		</div>
+		<div id="foot_site">Copyright © 2004-2017 京东JD.com 版权所有</div>
+	</div>
+</body>
+	<script src="./index.js" ></script>
+</html>
